@@ -2,12 +2,16 @@
   "name": "spiritual-app",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ankitkgoyal/spiritual-app.git"
+    "url": "https://github.com/ankitkgoyal/spiritual-app.git"
   },
   "keywords": [],
   "author": "",
@@ -16,15 +20,12 @@
     "url": "https://github.com/ankitkgoyal/spiritual-app/issues"
   },
   "homepage": "https://github.com/ankitkgoyal/spiritual-app#readme",
-  "description": "",
   "dependencies": {
     "next": "^15.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
 }
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
+ild",
   "start": "next start"
 }
